@@ -90,7 +90,3 @@ Invoke-RestMethod -Method Post http://localhost:8080/sync
 4. New content is encrypted with AES-256-GCM using a PBKDF2-derived key.
 5. The encrypted object is stored under `backup/objects/<prefix>/<sha256>.sfs`.
 6. Deleted source files are removed from the manifest, and unreferenced encrypted objects are cleaned up.
-
-## Resume Bullet
-
-Built a Java secure file sync utility featuring AES-256-GCM encryption, PBKDF2 key derivation, SHA-256 hashing for deduplication, SQLite-backed incremental sync metadata, a REST control API, and automated background folder synchronization.
