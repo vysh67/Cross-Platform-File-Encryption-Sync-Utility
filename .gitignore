@@ -1,21 +1,25 @@
+# Maven
 target/
-*.class
-*.db
-*.db-shm
-*.db-wal
+
+# IDE
 .idea/
 .vscode/
-*.log
+*.iml
+
+# Runtime data
 backup/
 restore/
 sample-data/
+data/
 
-*.iml
+# Databases
+*.db
+*.db-shm
+*.db-wal
 
+# Logs
+*.log
 
-# Git internals (if accidentally copied)
-.git/
-
-# Operating system files
+# OS files
 .DS_Store
 Thumbs.db
