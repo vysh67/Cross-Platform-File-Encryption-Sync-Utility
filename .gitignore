@@ -8,7 +8,7 @@ target/
 
 # Runtime data
 backup/
-restore/
+
 sample-data/
 data/
 

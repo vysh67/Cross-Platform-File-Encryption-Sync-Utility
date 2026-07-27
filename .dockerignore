@@ -3,7 +3,7 @@ target/
 .idea
 .vscode
 backup/
-restore/
+
 sample-data/
 data/
 *.db
