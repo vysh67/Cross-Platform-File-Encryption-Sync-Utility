@@ -1,0 +1,21 @@
+target/
+*.class
+*.db
+*.db-shm
+*.db-wal
+.idea/
+.vscode/
+*.log
+backup/
+restore/
+sample-data/
+
+*.iml
+
+
+# Git internals (if accidentally copied)
+.git/
+
+# Operating system files
+.DS_Store
+Thumbs.db
